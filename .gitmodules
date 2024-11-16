@@ -1,0 +1,3 @@
+[submodule "neovim-config"]
+	path = neovim-config
+	url = git@github.com:NeonCrafter13/neovim-config.git
