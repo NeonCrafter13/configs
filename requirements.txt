@@ -1,0 +1,11 @@
+nvim
+fd
+ripgrep
+
+kitty
+ubuntu mono nerdfont
+
+fish
+oh-my-fish
+
+tmux
