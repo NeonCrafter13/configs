@@ -1,4 +1,4 @@
-flags = -u -v -r
+flags = -v -r
 
 .Phony = install
 install :
@@ -6,6 +6,6 @@ install :
 	cp kitty ~/.config/ $(flags)
 	cp omf ~/.config/ $(flags)
 	cp tmux ~/.config/ $(flags)
-	
+
 	# submodules
 	cp neovim-config/nvim ~/.config/ $(flags)
