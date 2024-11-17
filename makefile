@@ -1,11 +1,10 @@
 flags = -v -r
+dir =fish kitty omf tmux neovim-config/nvim
+
 
 .Phony = install
-install :
-	cp fish ~/.config/ $(flags)
-	cp kitty ~/.config/ $(flags)
-	cp omf ~/.config/ $(flags)
-	cp tmux ~/.config/ $(flags)
+install:
+	for i in $(dir); do \
+		cp $$i ~/.config/ $(flags); \
+	done
 
-	# submodules
-	cp neovim-config/nvim ~/.config/ $(flags)
