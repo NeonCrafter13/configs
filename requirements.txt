@@ -1,6 +1,7 @@
 nvim
 fd
 ripgrep
+fastfetch
 
 kitty
 ubuntu mono nerdfont
